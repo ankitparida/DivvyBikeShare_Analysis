@@ -40,10 +40,10 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 
 ### Dimension Tables:
 
-***dim_Rider***: Store the Rider details.
-***dim_Station***: Store the Station details.
-***dim_Payment***: Store Payment related information.
-***dim_Date***: Calender Table.
+1. ***dim_Rider***: Store the Rider details.
+2. ***dim_Station***: Store the Station details.
+3. ***dim_Payment***: Store Payment related information.
+4. ***dim_Date***: Calender Table.
 
 
 ## <u> STAR SCHEMA </u>:
