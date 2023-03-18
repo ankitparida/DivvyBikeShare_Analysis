@@ -49,3 +49,14 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 ## <u> STAR SCHEMA </u>:
 
 ![image](https://user-images.githubusercontent.com/30798966/226129200-081767ca-78b0-4370-be5d-8867ddeb93ac.png)
+
+### Important Files:
+
+***ProjectDataToPostgres.py:*** Create and Load data into SQL Tables in Azure Postgres SQL Db.
+***PostgresConnCleanup.py:*** To close all redundant Connection if required.
+
+## Acknowledgements
+I would like to give credit to:
+* ![Udacity](https://classroom.udacity.com/nanodegrees/nd0277/)
+
+### Github Link: [https://github.com/ankitparida/DivvyBikeShare_Analysis](https://github.com/ankitparida/DivvyBikeShare_Analysis/)
