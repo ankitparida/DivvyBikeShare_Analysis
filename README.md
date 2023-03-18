@@ -48,7 +48,7 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 
 ## <u> STAR SCHEMA </u>:
 
-![image](https://user-images.githubusercontent.com/30798966/226137921-ac26bde6-839c-4e2d-8188-22682079b305.png)
+![image](https://user-images.githubusercontent.com/30798966/226138633-0705fc2d-0c1c-4491-8355-5970bbb4b391.png)
 
 
 ### Important Files:
