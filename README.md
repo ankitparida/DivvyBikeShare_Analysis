@@ -52,8 +52,11 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 
 ### Important Files:
 
-***ProjectDataToPostgres.py:*** Create and Load data into SQL Tables in Azure Postgres SQL Db.
-***PostgresConnCleanup.py:*** To close all redundant Connection if required.
+1. ***ProjectDataToPostgres.py:*** Create and Load data into SQL Tables in Azure Postgres SQL Db.
+2. ***PostgresConnCleanup.py:*** To close all redundant Connection if required.
+3. ***starSchema_Diagram:*** Star schema to design the datawarehouse.
+4. ***<>_Transformation.sql:*** Transformation SQLs for dimension and fact tables.
+5. ***sql_script_<>.sql:*** SQL scripts to create external tables using the csv places in Azure blobstorage.
 
 ## Acknowledgements
 I would like to give credit to:
