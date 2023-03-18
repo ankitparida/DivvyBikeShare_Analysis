@@ -58,6 +58,7 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 3. ***starSchema_Diagram:*** Star schema to design the datawarehouse.
 4. ***<>_Transformation.sql:*** Transformation SQLs for dimension and fact tables.
 5. ***sql_script_<>.sql:*** SQL scripts to create external tables using the csv places in Azure blobstorage.
+6. ***divvybikes_Analysis.sql:*** Data Analysis File with few findings from our dimension and Fact Tables.
 
 **NOTE- The Dataset can be downloaded from** ![Divvy-Bikes-Dataset](https://divvybikes.com/system-data/)
 
