@@ -29,7 +29,7 @@ cast(start_at as DATETIME2) as start_time_id,
 cast(ended_at as DATETIME2) as end_time_id,
 rideable_type,
 DATEDIFF(minute,cast(start_at as DATETIME2),cast(ended_at as DATETIME2)) as duration_in_mins,
-DATEDIFF(year,r.birthday,CURRENT_TIMESTAMP) as rider_age
+DATEDIFF(year,r.birthday,cast(start_at as DATETIME2)) as rider_age
 FROM staging_trips t
 LEFT JOIN staging_riders r on t.rider_id = r.rider_id
 
