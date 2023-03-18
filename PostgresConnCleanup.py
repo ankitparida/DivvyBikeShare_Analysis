@@ -4,9 +4,9 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 ########################################
 # Update connection string information #
 ########################################
-host = "udacitypostgres.postgres.database.azure.com"
-user = "udacitypostgresadmin@udacitypostgres"
-password = "Ishu@1701"
+host = ""
+user = ""
+password = ""
 
 # Create a new DB
 sslmode = "require"
