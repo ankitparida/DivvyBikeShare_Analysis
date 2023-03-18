@@ -33,6 +33,6 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 - Based on how many minutes the rider spends on a bike per month
 
 
-## STAR SCHEMA:
+## <u> STAR SCHEMA </u>:
 
 ![image](https://user-images.githubusercontent.com/30798966/226129200-081767ca-78b0-4370-be5d-8867ddeb93ac.png)
