@@ -32,6 +32,19 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 - Based on how many rides the rider averages per month
 - Based on how many minutes the rider spends on a bike per month
 
+## Schema for Divvy Bike Share Analysis
+
+### Fact Table:
+
+***fact_TripDetails:*** Store the trip related data including the duration and age of the rider.
+
+### Dimension Tables:
+
+***dim_Rider***: Store the Rider details.
+***dim_Station***: Store the Station details.
+***dim_Payment***: Store Payment related information.
+***dim_Date***: Calender Table.
+
 
 ## <u> STAR SCHEMA </u>:
 
