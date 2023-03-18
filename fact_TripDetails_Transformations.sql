@@ -12,7 +12,6 @@ CREATE TABLE fact_TripDetails (
     end_station_id NVARCHAR(200),
     start_time_id DATETIME2, 
     end_time_id DATETIME2,
-    payment_amount FLOAT, 
     rideable_type VARCHAR(40),
     duration_in_mins VARCHAR(40), 
     rider_age SMALLINT
@@ -28,12 +27,10 @@ start_station_id,
 end_station_id,
 cast(start_at as DATETIME2) as start_time_id,
 cast(ended_at as DATETIME2) as end_time_id,
-p.amount as payment_amount,
 rideable_type,
 DATEDIFF(minute,cast(start_at as DATETIME2),cast(ended_at as DATETIME2)) as duration_in_mins,
 DATEDIFF(year,r.birthday,CURRENT_TIMESTAMP) as rider_age
 FROM staging_trips t
-LEFT JOIN staging_payments p on t.rider_id = p.rider_id
 LEFT JOIN staging_riders r on t.rider_id = r.rider_id
 
 GO
