@@ -36,19 +36,20 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 
 ### Fact Table:
 
-***fact_TripDetails:*** Store the trip related data including the duration and age of the rider.
+1. ***fact_TripDetails:*** Store the trip related data including the duration and age of the rider.
+2. ***fact_Payment***: Store Payment related information.
 
 ### Dimension Tables:
 
 1. ***dim_Rider***: Store the Rider details.
 2. ***dim_Station***: Store the Station details.
-3. ***dim_Payment***: Store Payment related information.
-4. ***dim_Date***: Calender Table.
+3. ***dim_Date***: Calender Table.
 
 
 ## <u> STAR SCHEMA </u>:
 
-![image](https://user-images.githubusercontent.com/30798966/226129200-081767ca-78b0-4370-be5d-8867ddeb93ac.png)
+![image](https://user-images.githubusercontent.com/30798966/226137921-ac26bde6-839c-4e2d-8188-22682079b305.png)
+
 
 ### Important Files:
 
