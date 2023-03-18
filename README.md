@@ -58,6 +58,8 @@ The goal of this project is to develop a data warehouse solution using Azure Syn
 4. ***<>_Transformation.sql:*** Transformation SQLs for dimension and fact tables.
 5. ***sql_script_<>.sql:*** SQL scripts to create external tables using the csv places in Azure blobstorage.
 
+**NOTE- The Dataset can be downloaded from** ![Divvy-Bikes-Dataset](https://divvybikes.com/system-data/)
+
 ## Acknowledgements
 I would like to give credit to:
 * ![Udacity](https://classroom.udacity.com/nanodegrees/nd0277/)
